@@ -11,7 +11,7 @@ Technology used are:
 * RFid Sensors
 
 
-## People who are concerned about children:
+## People who are concerned about children security:
 
 1.**Parents:**
 
@@ -30,7 +30,17 @@ The new drivers doesnot even know the stop of children. So sometimes they skip a
 
 **CSECURE:**
 
-for the above problems we came up with three APPs(android) and 
+for the above problems we came up with three APPs(android) and One Raspberry-pi interface.
+* (The Admin APP)[https://github.com/vishalsingh9423/C-secure/tree/master/Admin]: 
+* The Parents' APP:
+* The BusDrivers' APP:
+* (Raspberry pi interface)[https://github.com/vishalsingh9423/C-secure/blob/master/spifile.py]
+
+
+This git consist of the admin application and raspberry pi interfacing
+
+The raspberry pi is connected with 3 RFID sensors and the rfid tags are placed inside the shoe of the child. So as soon as child enters the bus the presence is marked by the raspberry pi and the trigger is sent by the raspi to the firebase a realtime database. This database notifies the bus driver, parent and school that child has boarded the bus.
+
 
 
 
